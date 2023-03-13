@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+
+  <main class="main">
+    
+    <header class="head">
+      <img class="head__logo" src="./assets/images/logo.svg" alt="PING logo">
+    </header>
+
+    <section class="intro">
+      <h1 class="intro__header">We are launching <span class="accent">soon!</span></h1>
+      <p class="intro__text">Subscribe and get notified</p>
+    </section>
+
+    <form class="input">
+      <input class="input__input" id="input" type="text" placeholder="Your email address...">
+      <div class="warning" id="warning">Please provide a valid email address</div>
+      <button class="input__button" type="button" onclick="check()">Notify Me</button>
+    </form>
+  
+  </main>
+
+  <section class="center">
+    <img class="center__img" src="./assets/images/illustration-dashboard.png" 
+      alt="Preview of a desktop with four charts on a light blue background ">
+  </section>
+  
+  
+  <footer class="foot">
+    <div class="foot__links flex">
+      <div class="border flex">
+        <a href="https://facebook.com/" target="_blank" aria-label="facebook home page">
+          <img class="svg" src="./assets/images/bxl-facebook.svg" 
+            alt="facebook icon">
+        </a>
+      </div>
+      <div class="border flex">
+        <a href="https://twitter.com/" target="_blank" aria-label="twitter home page">
+          <img class="svg" src="./assets/images/bxl-twitter.svg" 
+            alt="twitter icon">
+        </a>
+      </div>
+      <div class="border flex">
+        <a href="https://instagram.com/" target="_blank" aria-label="instagram home page">
+          <img class="svg" src="./assets/images/bxl-instagram.svg" 
+            alt="instagram icon">
+        </a>
+      </div>
+    </div>
+    <p class="foot__text">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
